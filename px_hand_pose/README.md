@@ -51,12 +51,12 @@ export CUDA_HOME=/usr/local/cuda-11.8
 
 source ~/.bashrc
 ```
-  
+
 Ensure your NVIDIA Driver is compatible with CUDA 11.8.
 
 ## Clone the repo
 ```bash
-git clone https://gitlab.paxini.cloud/opensource/px_omnisharing_dataprocess_kit.git
+git conle https://github.com/px-DataCollection/px_omnisharing_dataprocess_kit.git
 cd px_omnisharing_dataprocess_kit/px_hand_pose
 ```
 
@@ -124,7 +124,7 @@ First, generate the engine for depth estimation:
 
   python pt2onnx.py
   python onnx2trt.py # could take several minutes
-  ```  
+```
 After running these scripts, check whether `iinet.engine` is inside `iinet/checkpoints`     
 
 `bimanual_pose.sh` in `main` folder automatically estimates bracelet poses from input data.          

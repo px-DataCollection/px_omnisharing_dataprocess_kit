@@ -30,7 +30,7 @@ Video and audio recorded during data acquisition are included in the final Phase
 # Installation
 ## Clone the repo
 ```bash
-git clone https://gitlab.paxini.cloud/opensource/px_omnisharing_dataprocess_kit.git
+git clone https://github.com/px-DataCollection/px_omnisharing_dataprocess_kit.git
 cd px_omnisharing_dataprocess_kit/px_retargeting/
 ```
 

@@ -1,10 +1,15 @@
 # PX OmniSharing Toolkit
 
-[TOC]
-
-PX OmniSharing is a comprehensive toolkit for data processing and sharing. It is the freeware version of our data post-processing tool, supporting a complete workflow from raw human data to our model’s training data. 
-
-The toolkit has three parts: **PX Hand Pose**, **PX Retargeting**, and **PX Replay**. They are in the directories, [px_hand_pose](px_hand_pose), [px_retargeting](px_retargeting), and [px_replay](px_replay).   
+## Table of Contents
+- [PX OmniSharing Toolkit](#px-omnisharing-toolkit)
+- [Overview](#overview)
+- [Project Structure](#project-structure)
+- [Data Structure](#data-structure)
+  - [Phase 1 data](##phase-1-data)
+  - [Phase 2 data](##phase-2-data)
+- [License](#license)
+  - [Installation & Usage Rights](##installation--usage-rights)
+- [Acknowledgment](#acknowledgment)
 
 # Overview 
 
