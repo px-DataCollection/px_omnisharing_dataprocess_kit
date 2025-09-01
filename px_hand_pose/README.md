@@ -69,7 +69,7 @@ Ensure your NVIDIA Driver is compatible with CUDA 11.8.
 
 ## Clone the repo
 ```bash
-git conle https://github.com/px-DataCollection/px_omnisharing_dataprocess_kit.git
+git clone https://github.com/px-DataCollection/px_omnisharing_dataprocess_kit.git
 cd px_omnisharing_dataprocess_kit/px_hand_pose
 ```
 
