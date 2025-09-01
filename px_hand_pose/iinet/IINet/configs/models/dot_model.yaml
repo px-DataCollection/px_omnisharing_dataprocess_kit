@@ -1,0 +1,19 @@
+!!python/object:options.Options
+image_encoder_name: efficientnet
+matching_encoder_type: unet
+feature_volume_type: ms_cost_volume
+dot_dim: 1
+cv_encoder_type: multi_scale_encoder
+depth_decoder_name: unet_pp
+matching_scale: 2
+multiscale: 2
+out_scale: 4
+logdir: ./run
+gpus: 1
+num_sanity_val_steps: 0
+num_workers: 0
+precision: 32
+random_seed: 0
+run_mode: train
+max_disp: 192
+

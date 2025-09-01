@@ -1,0 +1,22 @@
+# scene_config.yaml
+
+# 环境设置
+environment:
+  ground_plane:
+    enabled: true
+    path: "/World/defaultGroundPlane"
+    init_state:
+      pos: [0.0,0.0,0.0]
+  
+light:
+  type: "dome"
+  path: "/World/Light"
+  intensity: 2000.0
+  color: [0.75, 0.75, 0.75]
+
+robot:
+  type: "Tora"
+  prim_path: "{ENV_REGEX_NS}/Robot"
+
+
+  

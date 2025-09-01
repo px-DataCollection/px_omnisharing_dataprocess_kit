@@ -1,0 +1,24 @@
+include:
+    project: "pub/ci_templates"
+    file:
+      - "python.lint.gitlab-ci.yml"
+      - "lfs.check.gitlab-ci.yml"
+
+stages:
+    - check
+    - lint
+
+check_lfs:
+    when: always
+
+python:ruff:
+    rules:
+      - if:
+        when: never
+
+python:black:
+    rules:
+      - if:
+        changes:
+          - "**/*.py"
+        when: always

@@ -1,0 +1,7 @@
+**/__pycache__
+.idea/
+weights/
+logs/
+mycpp/build/
+bundlesdf/mycuda/build/
+bundlesdf/mycuda/common.egg-info/

@@ -1,0 +1,6 @@
+SCRIPT_DIR="$(pwd)"
+export URDF_LIBRARY_PATH="$SCRIPT_DIR/urdfs"
+export HAND_CONFIG_PATH="$SCRIPT_DIR/config"
+echo "==> URDF_LIBRARY_PATH=$URDF_LIBRARY_PATH"
+echo "==> HAND_CONFIG_PATH=$HAND_CONFIG_PATH"
+echo "Please run ./install.sh"

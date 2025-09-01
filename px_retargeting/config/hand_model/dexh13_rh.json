@@ -1,0 +1,11 @@
+{
+  "class": "RigidHandModel",
+  "urdf_description": "dexh13_hand_right_description",
+  "base_tf_rel_wrist": [
+    [0.0, 0.0, 1.0, 0.0],
+    [0.0, -1.0, 0.0, 0.0],
+    [1.0, 0.0, 0.0, 0.0],
+    [0.0, 0.0, 0.0, 1.0]
+  ],
+  "device": "cuda:0"
+}

@@ -1,0 +1,30 @@
+!!python/object:options.Options
+dataset_path: ./20250429_104224_images/20250429_104240_213
+dataset: sceneflow
+train_width: 512
+train_height: 384
+val_width: 960
+val_height: 512
+summary_freq_eval: 50
+save_freq: 4
+eval_freq: 4
+batch_size: 16
+val_batch_size: 4
+
+loss_weights:
+  l1:
+    - 5
+    - 2.5
+    - 1.25
+    - 0.6
+  grad:
+    - 1.0
+    - 1.0
+    - 0.5
+    - 0.5
+  normal: 2.5
+  focal: 1.0
+lr: 0.001
+wd: 0.0
+epochs: 105
+lrepochs: '10,50,70,85,95,100:10,2,2,2,2,2'

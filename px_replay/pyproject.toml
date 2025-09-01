@@ -1,0 +1,28 @@
+[project]
+name = "px_replay"
+version = "1.0.0a"
+authors = [
+  { name="PaXini" },
+]
+description = "Visualize Phase 2 data for OmniSharing Toolkit"
+
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Ubuntu",
+]
+
+dependencies = [
+    "numpy==1.26.4",
+    "pin>=2.6.18",
+    "ruckig>=0.14.0",
+    "scipy>=1.14.1",
+    "sharklog>=0.1.0",
+    "torch>=2.4.0",
+    "names_generator>=0.2.0",
+    "gymnasium",
+    "colorama",
+]
+
+

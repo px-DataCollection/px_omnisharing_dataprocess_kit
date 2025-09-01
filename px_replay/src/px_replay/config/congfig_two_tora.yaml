@@ -1,0 +1,32 @@
+# scene_config.yaml
+
+# 环境设置
+environment:
+  ground_plane:
+    enabled: true
+    path: "/World/defaultGroundPlane"
+  
+  light:
+    type: "dome"
+    path: "/World/Light"
+    intensity: 2000.0
+    color: [0.75, 0.75, 0.75]
+
+# 原点设置
+origins:
+  count: 2
+  spacing: 2.0
+  groups:
+    - name: "Origin1"
+      path: "/World/Origin1"
+      robot:
+        type: "TORA"
+        name: "tora"
+        prim_path: "/World/Origin1/Robot"
+    
+    - name: "Origin2"
+      path: "/World/Origin2"
+      robot:
+        type: "TORA"
+        name: "tora2"
+        prim_path: "/World/Origin2/Robot"

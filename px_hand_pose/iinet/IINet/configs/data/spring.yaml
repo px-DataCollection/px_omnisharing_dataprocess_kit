@@ -1,0 +1,30 @@
+!!python/object:options.Options
+dataset_path: /mnt/A/stereodatasets/sceneflow
+dataset: spring
+train_width: 960
+train_height: 504
+val_width: 1920
+val_height: 1080
+summary_freq_eval: 30
+save_freq: 5
+eval_freq: 4
+batch_size: 8
+val_batch_size: 2
+
+loss_weights:
+  l1:
+    - 5
+    - 2.5
+    - 1.25
+    - 0.6
+  grad:
+    - 1.0
+    - 1.0
+    - 0.5
+    - 0.5
+  normal: 2.5
+  focal: 1.0
+lr: 0.00005
+wd: 0.0
+epochs: 65
+lrepochs: '40,55:2,2'
