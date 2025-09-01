@@ -6,7 +6,7 @@
 - [Installation](#installation)
 - [Running Instruction](#running-instruction)
   - [Parse the Phase 1 (input) data and output videos](#parse-the-phase-1-input-data-and-output-videos)
-  - [Replay the Phase 2 (DH3) data in Isaac Sim](#replay-the-phase-2-dh3-data-in-isaac-sim)
+  - [Replay the Phase 2 (DH13) data in Isaac Sim](#replay-the-phase-2-dh13-data-in-isaac-sim)
     - [Sending the mock data to simulator](#sending-the-mock-data-to-simulator)
     - [Start the simulator](#start-the-simulator)
 
