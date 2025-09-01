@@ -1,6 +1,14 @@
 # PX OmniSharing Toolkit
 
-[TOC]
+- [PX OmniSharing Toolkit](#px-omnisharing-toolkit)
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Running Instruction](#running-instruction)
+  - [Parse the Phase 1 (input) data and output videos](#parse-the-phase-1-input-data-and-output-videos)
+  - [Replay the Phase 2 (DH3) data in Isaac Sim](#replay-the-phase-2-dh3-data-in-isaac-sim)
+    - [Sending the mock data to simulator](#sending-the-mock-data-to-simulator)
+    - [Start the simulator](#start-the-simulator)
 
 PX OmniSharing is a comprehensive toolkit for data processing and sharing. It is the freeware version of our data post-processing tool, supporting a complete workflow from raw human data to our model’s training data. The toolkit has three parts: **PX Hand Pose**, **PX Retargeting**, and **PX Replay**.
 

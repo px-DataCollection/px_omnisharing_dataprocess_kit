@@ -1,6 +1,19 @@
 # PX OmniSharing Toolkit
 
-[TOC]
+## Table of Contents
+- [PX OmniSharing Toolkit](#px-omnisharing-toolkit)
+- [Overview](#overview)
+- [Installation](#installation)
+  - [Requirements](#requirements)
+  - [Choose the methods of depth estimation: IINet or FoundationStereo](#choose-the-methods-of-depth-estimation-iinet-or-foundationstereo)
+  - [Install CUDA 11.8](#install-cuda-118)
+  - [Clone the repo](#clone-the-repo)
+  - [Set up the env_bracelet_1 environment for IINet](#set-up-the-env_bracelet_1-environment-for-iinet)
+  - [(experimental) Set up the env_bracelet_1 environment for FoundationStereo](#experimental-set-up-the-env_bracelet_1-environment-for-foundationstereo)
+  - [Set up the env_bracelet_2 environment](#set-up-the-env_bracelet_2-environment)
+- [Running](#running)
+  - [Preparation](#preparation)
+  - [How to run](#how-to-run)
 
 PX OmniSharing is a comprehensive toolkit for data processing and sharing. It is the freeware version of our data post-processing tool, supporting a complete workflow from raw human data to our model’s training data. The toolkit has three parts: **PX Hand Pose**, **PX Retargeting**, and **PX Replay**.
 

@@ -1,6 +1,12 @@
 # PX OmniSharing Toolkit
 
-[TOC]
+- [PX OmniSharing Toolkit](#px-omnisharing-toolkit)
+- [Overview](#overview)
+  - [Clone the repo](#clone-the-repo)
+  - [Set up the Conda environment](#set-up-the-conda-environment)
+- [Running](#running)
+  - [Using the test data as input](#using-the-test-data-as-input)
+
 
 PX OmniSharing is a comprehensive toolkit for data processing and sharing. It is the freeware version of our data post-processing tool, supporting a complete workflow from raw human data to our model’s training data. The toolkit has three parts: **PX Hand Pose**, **PX Retargeting**, and **PX Replay**.
 
