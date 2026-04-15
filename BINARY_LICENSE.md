@@ -1,12 +1,11 @@
-
 # Binary Package License Agreement
 
-Version 1.0 - Effective Date: [2025.Aug.29]
+Version 1.0 - Effective Date: [2026.Apr.12]
 
 ## 1. Definitions
 
-- **"Package"**: The compiled Python wheel file and its contents
-- **"Non-commercial Use"**: Use solely for academic research, education, or personal evaluation
+- **"Package"**: The compiled Python wheel file and its contents          
+- **"Non-commercial Use"**: Use solely for academic research, education, or personal evaluation 
 - **"Commercial Use"**: Any use that directly or indirectly generates revenue
 
 ## 2. Grant of License
