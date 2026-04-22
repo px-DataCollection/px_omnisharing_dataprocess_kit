@@ -61,7 +61,7 @@ sudo usermod -aG docker "${SUDO_USER:-$USER}"
 Docker image `px_pipeline` includes the whole pipeline.
 ```bash
 # [HOST]
-docker pull <url>
+docker pull paxiniaz/px_pipeline:0.1.3
 
 # Enter the container and mount a workspace
 # Example: bash first_run.sh /home/alice/data
