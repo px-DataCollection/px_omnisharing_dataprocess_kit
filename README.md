@@ -21,7 +21,7 @@ The post-processing pipeline for **PaXini's Super EID Factory** involves the fol
 | **PX Pose** | DF-1 | Bimanual poses and (optional) object poses |  
 | **PX Post-Process** | (a) DF-1; (b) Output of PX Pose | DF-2, DF-2R, DF-3 |
 
-The overall outputs are DF-2, DF-2R, and DF-3 data. We release **PX Omnisharing**, samples of our DF-2 data, on [Hugging Face](https://huggingface.co/datasets/paxini/Omnisharing_DB_SampleData).
+The overall outputs are DF-2, DF-2R, and DF-3 data. We release **PX Omnisharing**, samples of our DF-2 data, on [Hugging Face](https://huggingface.co/datasets/paxini/Omnisharing_DB_SampleData). Users can also visualize and review the data directly in [PXCap Viewer](http://omnisharingdbviewer.paxini.com/)
 
 ## Env setup 
 ### Prerequisite
